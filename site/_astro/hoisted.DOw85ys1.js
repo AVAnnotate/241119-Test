@@ -1,0 +1,1 @@
+import{d as l}from"./player.C9XHYsCf.js";import{$ as s}from"./store.8pX9dcuw.js";s.set({});const a=document.getElementsByClassName("mediaContainer");for(let t=0;t<a.length;t++){const e=a[t];e instanceof HTMLElement&&e.dataset.playerId&&s.setKey(e.dataset.playerId,{...l,id:e.dataset.playerUrl||""})}
